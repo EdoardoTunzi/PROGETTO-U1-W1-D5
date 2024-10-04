@@ -132,3 +132,20 @@ footer h2 {
   font-size: 35px;
   padding: 45px;
 }
+footer a,
+address p {
+  color: #c8e7f0;
+  padding: 0;
+}
+footer hr {
+  width: 14em;
+  margin-inline: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#copyright {
+  padding-bottom: 50px;
+  padding-top: 10px;
+  font-size: 1em;
+}
