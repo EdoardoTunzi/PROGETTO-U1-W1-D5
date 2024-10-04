@@ -78,7 +78,7 @@ p {
 /* IMMAGINE CORNICE TONDA*/
 .image-box img {
   border-radius: 50%;
-  width: 280px;
+  width: 300px;
 }
 
 .image-box {
@@ -88,10 +88,11 @@ p {
 /*REDBOX*/
 
 .red-box {
-  background-color: red;
+  background-color: #e22d0e;
   text-align: center;
   color: white;
   padding-bottom: 28px;
+  margin-bottom: 70px;
 }
 .red-box h2 {
   color: white;
@@ -118,7 +119,32 @@ p {
 .red-box h6 {
   padding: 15px;
 }
+
 /* CARDS SECTION */
+
+.cards-section {
+  margin: 25px;
+}
+.card img {
+  width: 100%;
+}
+.card {
+  text-align: center;
+  border: 1px solid #dee1e3;
+  border-radius: 0 0 0.6vh 0.6vh;
+  margin-bottom: 35px;
+}
+.card h3 {
+  font-size: 1.3em;
+  padding-top: 25px;
+}
+
+.card p {
+  font-size: 1.2em;
+  margin-inline: 0;
+  padding: 20px;
+  padding-bottom: 40px;
+}
 
 /*FOOTER*/
 
