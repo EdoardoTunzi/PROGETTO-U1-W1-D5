@@ -37,6 +37,7 @@ header div img {
   background-position: center;
   width: 100%;
   padding-bottom: 3px;
+  margin-bottom: 45px;
 }
 
 .banner h1 {
@@ -50,15 +51,71 @@ header div img {
   margin-inline: 1.5em;
 }
 .banner button {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    background-color: #f04c2f;
-    color: white;
-    border-radius: 10%;
-    border-style: none;
-    padding: 1em;
-    font-size: 1.1em;
-    display: block;
-    margin: 30px auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  background-color: #f04c2f;
+  color: white;
+  border-radius: 0.5vh;
+  border-style: none;
+  padding: 0.8em 2em;
+  font-size: 1.1em;
+  display: block;
+  margin: 30px auto;
 }
+/*MAIN - CENTRAL SECTION*/
+
+.central h2,
+p {
+  text-align: center;
+  margin-inline: 1.5em;
+  padding: 10px;
 }
+
+.central h2 {
+  font-size: 1.3em;
+  margin-top: 1.3em;
+}
+/* IMMAGINE CORNICE TONDA*/
+.image-box img {
+  border-radius: 50%;
+  width: 280px;
+}
+
+.image-box {
+  text-align: center;
+  margin: 25px;
+}
+/*REDBOX*/
+
+.red-box {
+  background-color: red;
+  text-align: center;
+  color: white;
+  padding-bottom: 28px;
+}
+.red-box h2 {
+  color: white;
+  font-size: 2em;
+  margin-inline: auto;
+  padding: 65px 20px 20px;
+}
+.red-box p {
+  margin: 5px;
+  padding: 10px;
+  margin-bottom: 35px;
+  font-weight: 300;
+}
+
+.red-box em {
+  font-style: italic;
+}
+
+.red-box h4 {
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+.red-box h6 {
+  padding: 15px;
+}
+/* CARDS SECTION */
