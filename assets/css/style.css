@@ -119,3 +119,16 @@ p {
   padding: 15px;
 }
 /* CARDS SECTION */
+
+/*FOOTER*/
+
+footer {
+  background-color: #25a2c3;
+}
+
+footer h2 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  padding: 45px;
+}
