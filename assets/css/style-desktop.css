@@ -13,9 +13,10 @@ h3 {
   font-weight: 700;
   font-style: normal;
   color: #25a2c3;
+  line-height: 35px;
 }
 p {
-  font-size: 1.3em;
+  font-size: 1.16pt;
   line-height: 1.5em;
 }
 
@@ -25,7 +26,7 @@ header {
 }
 
 header img {
-  width: 120px;
+  width: 140px;
   margin: 20px;
   margin-left: 40px;
 }
@@ -35,17 +36,18 @@ header img {
   background-position: top;
   background-size: cover;
   width: 100%;
-  padding: 130px 0px 130px 0px;
+  padding: 200px 0px 200px 0px;
   text-align: center;
 }
 
 .banner h1 {
-  font-size: 1.3em;
+  font-size: 2em;
+  line-height: 60px;
 }
 
 .banner p {
-  font-size: 11pt;
-  margin-inline: 16em;
+  font-size: 16pt;
+  margin-inline: 20em;
   text-align: center;
 }
 .banner button {
@@ -56,9 +58,9 @@ header img {
   border-radius: 0.5vh;
   border-style: none;
   padding: 0.8em 2em;
-  font-size: 8pt;
+  font-size: 12pt;
   display: block;
-  margin: 10px auto;
+  margin: 26px auto;
 }
 
 /*MAIN - CENTRAL SECTION - first-box*/
@@ -79,23 +81,24 @@ p {
 /* IMMAGINE CORNICE TONDA*/
 .image-box img {
   border-radius: 50%;
-  width: 350px;
+  width: 400px;
 }
 .image-box {
   display: inline-block;
-  text-align: center;
+  text-align: right;
   width: 45%;
-  margin-right: 20px;
+  padding-right: 70px;
 }
 .text-content {
   display: inline-block;
-  text-align: right;
   width: 45%;
+  vertical-align: top;
+  padding-top: 20px;
 }
 .text-content h2,
-p {
+.text-content p {
   text-align: left;
-  margin-right: 14px;
+  margin-right: 12em;
 }
 
 /*REDBOX*/
@@ -133,12 +136,11 @@ p {
 /* CARDS SECTION */
 
 .cards-section {
-  padding: 60px;
-  padding-bottom: 70px;
+  padding: 110px 140px 150px 140px;
 }
 .card img {
   width: 100%;
-  height: 200px;
+  height: 350px;
   object-fit: cover;
 }
 .card {
@@ -157,7 +159,7 @@ p {
 .card p {
   text-align: center;
   margin-right: 0;
-  font-size: 10pt;
+  font-size: 11pt;
 }
 
 /*FOOTER*/
@@ -171,12 +173,12 @@ address h2 {
   color: white;
   text-align: left;
   font-size: 29pt;
-  padding-bottom: 25px;
+  padding-bottom: 30px;
 }
 
 address {
   display: inline-block;
-  padding: 35px;
+  padding: 60px;
 }
 
 address p,
@@ -185,6 +187,7 @@ a {
   padding: 0;
   font-size: 10pt;
   margin-right: 0;
+  text-align: left;
 }
 address p i {
   color: white;
